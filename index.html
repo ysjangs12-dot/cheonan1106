@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7f5ef" />
+  <meta name="description" content="천안시청 자치기획팀 총괄, 대학생 엄마, 음악과 조용한 일상을 사랑하는 사람의 포트폴리오" />
+  <title>나의 이야기 | Personal Portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap');
+    :root{--bg:#f7f5ef;--paper:#fffefa;--ink:#283b32;--sub:#69776e;--sage:#6d8b78;--soft:#e8eee7;--accent:#c68460;--line:#e3e7df;--shadow:0 18px 55px rgba(46,65,49,.08)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans','Noto Sans KR',system-ui,sans-serif;word-break:keep-all;line-height:1.65}button,a{-webkit-tap-highlight-color:transparent}a{color:inherit;text-decoration:none}button{font:inherit}::selection{background:#d7e5d8;color:#263b30}
+    .wrap{width:min(1160px,calc(100% - 48px));margin:auto}.nav{height:82px;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-size:16px;font-weight:700;letter-spacing:-.04em;display:flex;gap:10px;align-items:center}.brand-mark{width:32px;height:32px;display:grid;place-items:center;background:var(--ink);color:white;border-radius:50%;font-size:15px}.navlinks{display:flex;gap:28px;font-size:13px;font-weight:600;color:var(--sub)}.navlinks a:hover,.navlinks a:focus-visible{color:var(--accent)}.topline{height:1px;background:var(--line)}
+    .hero{position:relative;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:55px;padding:82px 0 100px}.eyebrow{color:#788d7f;font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;display:flex;align-items:center;gap:11px}.eyebrow:before{content:'';display:block;width:25px;height:1px;background:var(--sage)}h1,h2,h3,p{margin-top:0}.hero h1{font-size:clamp(42px,5.4vw,73px);letter-spacing:-.075em;line-height:1.28;margin:22px 0 26px;font-weight:600}.hero h1 em{font-style:normal;color:var(--sage)}.lead{font-size:16px;color:var(--sub);max-width:490px;line-height:1.95;margin-bottom:32px}.actions{display:flex;gap:12px;flex-wrap:wrap}.primary,.secondary{display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:13px 23px;border-radius:100px;font-size:13px;font-weight:700;transition:transform .2s,background .2s,box-shadow .2s;cursor:pointer}.primary{background:var(--ink);color:white;border:1px solid var(--ink)}.secondary{border:1px solid #cfd7cc;background:transparent}.primary:hover,.secondary:hover{transform:translateY(-3px);box-shadow:0 8px 18px #283b321a}.secondary:hover{background:white}
+    .art{height:460px;position:relative;border-radius:240px 240px 18px 18px;background:linear-gradient(145deg,#e4e9dc,#c7d6c7);overflow:hidden;box-shadow:var(--shadow)}.art:before{content:'';position:absolute;border:1px solid #ffffff86;width:340px;height:340px;border-radius:50%;top:-92px;right:-90px}.art:after{content:'';position:absolute;width:420px;height:420px;border-radius:50%;background:#a9c1ac;bottom:-260px;right:-130px;opacity:.8}.sun{width:170px;height:170px;position:absolute;top:85px;right:80px;border-radius:50%;background:#f7edda;box-shadow:0 0 70px #f7edda99}.leaf{position:absolute;width:180px;height:280px;border-left:7px solid #5e846f;bottom:-25px;left:30%;transform:rotate(-15deg);border-radius:60%}.leaf i{position:absolute;display:block;width:83px;height:32px;border-radius:90% 0 90% 0;background:#628972;transform:rotate(-40deg)}.leaf i:nth-child(1){top:55px;left:-75px}.leaf i:nth-child(2){top:110px;left:3px;transform:rotate(35deg)}.leaf i:nth-child(3){top:175px;left:-78px}.leaf i:nth-child(4){top:220px;left:3px;transform:rotate(35deg)}.art-label{position:absolute;z-index:2;left:33px;bottom:30px;background:#fffcf3e8;backdrop-filter:blur(8px);padding:18px 24px;border-radius:14px;box-shadow:0 10px 28px #2a47321a}.art-label small{display:block;letter-spacing:.2em;color:#859386;font-size:10px;font-weight:700}.art-label strong{display:block;font-weight:600;font-size:17px;margin-top:3px}.float{position:absolute;right:-15px;top:58px;background:#fffefa;box-shadow:var(--shadow);border-radius:100px;padding:13px 20px;font-size:12px;color:var(--sage);font-weight:700;transform:rotate(7deg)}
+    .section{padding:85px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:32px}.kicker{font-size:11px;font-weight:700;color:var(--accent);letter-spacing:.19em;text-transform:uppercase;margin-bottom:10px}.section h2{font-size:clamp(28px,3.4vw,41px);letter-spacing:-.055em;line-height:1.35;margin:0}.section-desc{font-size:13px;color:var(--sub);max-width:340px}.about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.tile{background:var(--paper);padding:32px;border:1px solid var(--line);border-radius:20px;min-height:235px;transition:transform .25s,box-shadow .25s}.tile:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.tile .num{font-size:12px;color:#9ba89c;font-weight:700;margin-bottom:38px}.tile .symbol{font-size:25px;margin-bottom:14px;display:block}.tile h3{font-size:19px;letter-spacing:-.04em;margin-bottom:9px}.tile p{font-size:13px;color:var(--sub);line-height:1.9;margin-bottom:0}
+    .mid{background:#e9eee7;padding:82px 0}.mid-content{display:grid;grid-template-columns:.75fr 1.25fr;gap:70px;align-items:center}.quote{font-size:clamp(27px,3.3vw,40px);line-height:1.5;letter-spacing:-.05em;font-weight:500;margin:12px 0 0}.quote span{color:var(--sage)}.values{display:grid;gap:13px}.value{display:flex;align-items:center;gap:19px;background:#fffef9c9;border-radius:15px;padding:20px 24px}.value-icon{font-size:24px;flex:0 0 38px}.value h3{font-size:15px;margin-bottom:3px}.value p{color:var(--sub);font-size:12px;margin:0}
+    .links-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.link-card{position:relative;overflow:hidden;display:flex;flex-direction:column;min-height:225px;border:1px solid var(--line);background:var(--paper);border-radius:20px;padding:27px;transition:transform .25s,box-shadow .25s,border-color .25s}.link-card:hover,.link-card:focus-visible{transform:translateY(-5px);border-color:#a9bbaa;box-shadow:var(--shadow)}.link-card small{font-size:11px;color:var(--sub);letter-spacing:.14em;font-weight:700}.link-card .digit{font-size:74px;font-weight:500;letter-spacing:-.09em;line-height:1.15;margin:15px 0 auto;color:#d1ded1}.link-card:nth-child(2) .digit{color:#e8d6c6}.link-card:nth-child(3) .digit{color:#d4d9e3}.link-card .bottom{display:flex;justify-content:space-between;align-items:center;font-size:14px;font-weight:700}.arrow{width:35px;height:35px;border-radius:50%;background:var(--soft);display:grid;place-items:center;font-size:18px;transition:background .2s,transform .2s}.link-card:hover .arrow{background:var(--ink);color:white;transform:rotate(-45deg)}.note{color:var(--sub);font-size:12px;margin-top:17px}
+    footer{border-top:1px solid var(--line);padding:32px 0 45px}.footer-content{display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:12px;color:#8b978c}.footer-content strong{font-size:14px;color:var(--ink)}.reveal{opacity:0;transform:translateY(16px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:none}
+    @media(max-width:850px){.hero{gap:32px}.art{height:390px}.float{right:0}.mid-content{gap:35px}}@media(max-width:680px){.wrap{width:min(100% - 36px,1160px)}.nav{height:70px}.navlinks{gap:15px;font-size:12px}.hero{grid-template-columns:1fr;padding:55px 0 72px;gap:45px}.hero h1{font-size:clamp(40px,9.2vw,58px)}.lead{font-size:14px}.art{height:355px;max-width:460px;width:100%;justify-self:center}.sun{top:55px;right:70px}.float{right:3px;top:28px}.section{padding:65px 0}.section-head{display:block}.section-desc{margin-top:14px}.about-grid,.links-grid{grid-template-columns:1fr}.tile{min-height:0;padding:27px}.tile .num{margin-bottom:16px}.mid{padding:65px 0}.mid-content{grid-template-columns:1fr;gap:28px}.quote{font-size:29px}.link-card{min-height:190px}.link-card .digit{font-size:62px}.footer-content{flex-direction:column;align-items:flex-start}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <nav class="nav" aria-label="주 메뉴">
+      <a class="brand" href="#home"><span class="brand-mark">S</span> MY NOTE<span style="color:#b4bfb3">.</span></a>
+      <div class="navlinks"><a href="#about">소개</a><a href="#values">나의 일상</a><a href="#projects">바로가기</a></div>
+    </nav>
+  </header>
+  <div class="topline"></div>
+  <main>
+    <section id="home" class="hero wrap">
+      <div class="reveal">
+        <div class="eyebrow">MY STORY · MY WAY</div>
+        <h1>차분하게 생각하고,<br><em>따뜻하게 연결하는</em><br>사람입니다.</h1>
+        <p class="lead">천안시청에서 자치기획팀을 총괄하는 공무원입니다. 맡은 일에는 책임감을, 일상에는 작은 여유를 담으며 저만의 속도로 살아갑니다.</p>
+        <div class="actions"><a class="primary" href="#about">저를 소개합니다 <span aria-hidden="true">↗</span></a><a class="secondary" href="#projects">페이지 둘러보기 <span aria-hidden="true">→</span></a></div>
+      </div>
+      <div style="position:relative" class="reveal">
+        <div class="art" role="img" aria-label="따뜻한 햇살과 초록 식물이 어우러진 감성적인 일러스트">
+          <div class="sun"></div><div class="leaf"><i></i><i></i><i></i><i></i></div>
+          <div class="art-label"><small>WORK & LIFE IN HARMONY</small><strong>서두르지 않아도, 단단하게.</strong></div>
+        </div>
+        <div class="float">🌿 Calm & Thoughtful</div>
+      </div>
+    </section>
+    <section id="about" class="section wrap">
+      <div class="section-head reveal"><div><div class="kicker">01 / About me</div><h2>서로 다른 역할, 하나의 나</h2></div><p class="section-desc">공적인 책임과 사적인 행복 사이에서 균형을 찾아가는 저의 이야기입니다.</p></div>
+      <div class="about-grid">
+        <article class="tile reveal"><div class="num">ROLE 01</div><span class="symbol" aria-hidden="true">🏛️</span><h3>책임감 있는 공직자</h3><p>천안시청 자치기획팀 총괄로서 함께 고민하고 조율하며, 맡은 일을 성실하게 이어갑니다.</p></article>
+        <article class="tile reveal"><div class="num">ROLE 02</div><span class="symbol" aria-hidden="true">💛</span><h3>든든한 대학생 엄마</h3><p>대학생 자녀의 새로운 도전을 응원하며, 서로의 성장을 소중히 여깁니다.</p></article>
+        <article class="tile reveal"><div class="num">ROLE 03</div><span class="symbol" aria-hidden="true">🌱</span><h3>조용한 배려의 ISFJ</h3><p>MBTI는 ISFJ. 세심함과 꾸준함을 바탕으로 사람과 일상의 의미를 발견합니다.</p></article>
+      </div>
+    </section>
+    <section id="values" class="mid">
+      <div class="wrap mid-content">
+        <div class="reveal"><div class="kicker">02 / My little joys</div><p class="quote">바쁜 하루 끝에는<br><span>조용한 쉼표</span>가<br>필요하니까요.</p></div>
+        <div class="values reveal">
+          <div class="value"><span class="value-icon" aria-hidden="true">🎧</span><div><h3>음악이 있는 시간</h3><p>좋아하는 음악을 들으며 마음의 온도를 맞춥니다.</p></div></div>
+          <div class="value"><span class="value-icon" aria-hidden="true">🏡</span><div><h3>집에서 보내는 고요한 하루</h3><p>익숙하고 편안한 공간에서 조용히 재충전하는 시간을 좋아합니다.</p></div></div>
+          <div class="value"><span class="value-icon" aria-hidden="true">🤍</span><div><h3>꾸준함과 배려</h3><p>크고 화려한 순간보다 소소하고 진심 어린 관계를 소중히 생각합니다.</p></div></div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="section wrap">
+      <div class="section-head reveal"><div><div class="kicker">03 / Explore more</div><h2>나의 기록을 이어갈 공간</h2></div><p class="section-desc">각 번호는 별도의 HTML 페이지로 연결됩니다. 나중에 원하는 콘텐츠로 채워 넣을 수 있어요.</p></div>
+      <div class="links-grid">
+        <a class="link-card reveal" href="1.html" aria-label="1번 페이지 1.html로 이동"><small>PAGE ONE · 1.html</small><span class="digit">01</span><span class="bottom">나의 이야기 <span class="arrow" aria-hidden="true">↗</span></span></a>
+        <a class="link-card reveal" href="2.html" aria-label="2번 페이지 2.html로 이동"><small>PAGE TWO · 2.html</small><span class="digit">02</span><span class="bottom">업무와 경험 <span class="arrow" aria-hidden="true">↗</span></span></a>
+        <a class="link-card reveal" href="3.html" aria-label="3번 페이지 3.html로 이동"><small>PAGE THREE · 3.html</small><span class="digit">03</span><span class="bottom">취향과 일상 <span class="arrow" aria-hidden="true">↗</span></span></a>
+      </div>
+      <p class="note">※ 현재는 연결 주소만 설정되어 있습니다. 같은 폴더에 1.html, 2.html, 3.html을 추가하면 연결됩니다.</p>
+    </section>
+  </main>
+  <footer><div class="wrap footer-content"><strong>MY NOTE.</strong><span>천천히, 하지만 나답게. © <span id="year">2026</span> My Personal Portfolio</span><a href="#home">맨 위로 ↑</a></div></footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
+      }, { threshold: .08 });
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    } else document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+  </script>
+</body>
+</html>
