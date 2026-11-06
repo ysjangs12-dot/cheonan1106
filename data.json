@@ -1,0 +1,250 @@
+[
+  {
+    "title": "청년이 머무르고 미래가 성장하는 도시",
+    "label": "표지",
+    "description": "2026 천안시 청년정책 · 현황, 주요사업, 성과, 발전방향. 성장 → 자립 → 정착 → 참여. 자료기준: 2026.11.06",
+    "facts": [
+      {
+        "name": "정책 흐름",
+        "value": "성장 → 자립 → 정착 → 참여"
+      }
+    ]
+  },
+  {
+    "title": "천안 청년정책, 숫자로 보다",
+    "label": "정책 한눈에",
+    "description": "2026년 시행계획 및 2025년 5월 청년통계를 각 기준 시점에 따라 구분합니다. 단발성 지원을 넘어 지역 성장·자립·정착의 선순환을 지향합니다.",
+    "facts": [
+      {
+        "name": "2026년 청년정책 계획 예산",
+        "value": "951억 원"
+      },
+      {
+        "name": "2026년 시행계획 사업 수",
+        "value": "80개"
+      },
+      {
+        "name": "2025년 5월 청년인구 비중",
+        "value": "29.9%"
+      }
+    ],
+    "sources": [
+      "https://www.tjb.co.kr/news07/reporter/view/id/95476",
+      "https://v.daum.net/v/20260102152949006"
+    ]
+  },
+  {
+    "title": "청년 약 19.8만 명, 도시의 핵심 인구",
+    "label": "청년 인구",
+    "description": "만 18~39세, 2025년 5월 말 주민등록 기준. 천안시 전체 661,615명 중 청년 197,572명입니다. 천안 29.9%, 전국 26.1%, 충남 23.7%. 동일 기준 비교.",
+    "facts": [
+      {
+        "name": "천안 청년인구",
+        "value": "197,572명"
+      },
+      {
+        "name": "천안 전체인구",
+        "value": "661,615명"
+      },
+      {
+        "name": "천안 청년 비율",
+        "value": "29.9%"
+      },
+      {
+        "name": "전국 청년 비율",
+        "value": "26.1%"
+      },
+      {
+        "name": "충남 청년 비율",
+        "value": "23.7%"
+      }
+    ],
+    "sources": [
+      "https://v.daum.net/v/20260102152949006"
+    ],
+    "chart": [
+      {
+        "name": "천안",
+        "value": 29.9
+      },
+      {
+        "name": "전국",
+        "value": 26.1
+      },
+      {
+        "name": "충남",
+        "value": 23.7
+      }
+    ]
+  },
+  {
+    "title": "5대 분야 · 80개 사업으로 연결하다",
+    "label": "정책 5대 분야",
+    "description": "2026년 시행계획 확정. 분야별 예시는 2026년 시행계획 보도에 근거합니다.",
+    "facts": [
+      {
+        "name": "일자리·창업",
+        "value": "청년도전지원 / 천안형 청년채용연계"
+      },
+      {
+        "name": "교육·역량",
+        "value": "취업스터디그룹 / 배워유 / N클래스"
+      },
+      {
+        "name": "주거·정착",
+        "value": "행복주택 / 청년안정교육사업"
+      },
+      {
+        "name": "복지·문화",
+        "value": "허심탄회 / 청년방방 / Z-아트"
+      },
+      {
+        "name": "참여·권리",
+        "value": "천안 청년기자단 / 청년의 날 문화행사"
+      }
+    ],
+    "sources": [
+      "https://clik.nanet.go.kr/clikr-collection/bill/041001/12/2026/CLIKC2194057331597487_1.pdf",
+      "https://jaripon.ncrc.or.kr/home/kor/support/projectMng/edit.do?idx=1654&menuPos=1"
+    ]
+  },
+  {
+    "title": "일자리에서 창업까지, 성장 사다리",
+    "label": "취업·창업",
+    "description": "취업과 창업 지원을 지역산업·대학 연계로 확장.",
+    "facts": [
+      {
+        "name": "01 취업 준비",
+        "value": "취업스터디그룹 지원사업 · 취업특강·스터디 활동비"
+      },
+      {
+        "name": "02 도전·회복",
+        "value": "2026 청년도전지원사업 · 단기·중기·장기 진로 회복"
+      },
+      {
+        "name": "03 취업 연계",
+        "value": "천안형 청년채용연계 · 교육·기업 채용설명회 연계"
+      },
+      {
+        "name": "04 현장 경험",
+        "value": "천안시 청년인턴사업 · 관내 기업 인턴십 연계"
+      }
+    ],
+    "sources": [
+      "https://clik.nanet.go.kr/clikr-collection/bill/041001/12/2026/CLIKC2194057331597487_1.pdf",
+      "https://jaripon.ncrc.or.kr/home/kor/support/projectMng/edit.do?idx=1654&menuPos=1"
+    ]
+  },
+  {
+    "title": "일상을 지탱하는 주거·생활안전망",
+    "label": "주거·생활",
+    "description": "주거, 돌봄, 관계 형성까지 생활밀착형 지원. 주거 안정 → 생활 안정.",
+    "facts": [
+      {
+        "name": "주거",
+        "value": "청년 주거·월세 지원 제도"
+      },
+      {
+        "name": "교육",
+        "value": "청년안정교육사업"
+      },
+      {
+        "name": "상담",
+        "value": "허심탄회 (심리·금융·주거·노무)"
+      },
+      {
+        "name": "회복",
+        "value": "2026 고립·은둔청년 지원사업"
+      }
+    ],
+    "sources": [
+      "https://clik.nanet.go.kr/clikr-collection/bill/041001/12/2026/CLIKC2194057331597487_1.pdf",
+      "https://opcl.kr/policy-details/CZsm9Z8BGedfapFaWfpn/"
+    ]
+  },
+  {
+    "title": "천안청년센터 ‘이음’, 정책의 접점",
+    "label": "청년센터 이음",
+    "description": "2019년 1월 9일 개소 · 청년의 일·삶·문화 통합지원. 프로그램별 신청 자격·일정은 센터 공고 확인.",
+    "facts": [
+      {
+        "name": "일거리",
+        "value": "천안형 청년채용연계 · 취업스터디"
+      },
+      {
+        "name": "삶거리",
+        "value": "허심탄회 · 배워유 · 청년안정교육"
+      },
+      {
+        "name": "흥거리",
+        "value": "청년방방 · N클래스 · Z-아트"
+      }
+    ],
+    "sources": [
+      "https://clik.nanet.go.kr/clikr-collection/bill/041001/12/2026/CLIKC2194057331597487_1.pdf",
+      "https://crm.ch2030youth.kr/lmth/01_info/info01.php"
+    ]
+  },
+  {
+    "title": "도전의 성과, 확인된 숫자로",
+    "label": "확인된 성과",
+    "description": "청년도전지원사업, 보도 기준 2025년 8월 말. 누적 취·창업과 연간 사업 참여, 수료는 서로 다른 지표입니다. 2026년 최종 집행·성과 자료는 미확인으로 외삽하지 않았습니다.",
+    "facts": [
+      {
+        "name": "2021~2025.8 누적 취·창업",
+        "value": "153명"
+      },
+      {
+        "name": "2025년 사업 참여자",
+        "value": "211명"
+      },
+      {
+        "name": "2025.8 기준 수료자",
+        "value": "108명"
+      }
+    ],
+    "sources": [
+      "https://www.newsis.com/view/NISX20250905_0003317080"
+    ]
+  },
+  {
+    "title": "다음 단계: 지원을 ‘정착 성과’로 연결",
+    "label": "발전 방향",
+    "description": "아래 네 과제는 공식 확정사업이 아닌 발표용 발전 제안입니다.",
+    "facts": [
+      {
+        "name": "01 통합 안내",
+        "value": "정책·자격·신청을 한 화면에서"
+      },
+      {
+        "name": "02 연계 지원",
+        "value": "교육 → 채용 → 주거까지 이어지는 경로"
+      },
+      {
+        "name": "03 성과 관리",
+        "value": "참여·수료·취업·정착을 구분해 측정"
+      },
+      {
+        "name": "04 청년 참여",
+        "value": "이용자 의견을 다음 사업 설계에 반영"
+      }
+    ],
+    "sources": [
+      "https://www.cheonancouncil.go.kr/cms/mntsViewer.do?schMntsId=5052"
+    ]
+  },
+  {
+    "title": "청년이 선택하는 천안, 청년과 성장하는 천안",
+    "label": "마무리",
+    "description": "정책의 양적 확대에서 청년의 삶에 남는 성과로. GROW · LIVE · STAY · PARTICIPATE. 자료기준 2026.11.06.",
+    "facts": [
+      {
+        "name": "핵심 메시지",
+        "value": "청년이 선택하는 천안, 청년과 성장하는 천안"
+      }
+    ],
+    "sources": [
+      "https://www.tjb.co.kr/news07/reporter/view/id/95476"
+    ]
+  }
+]
